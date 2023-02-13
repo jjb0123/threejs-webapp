@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="icon" href="texture.png">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://pro.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-8nTbev/iV1sg3ESYOAkRPRDMDa5s0sknqroAe9z4DiM+WDr1i/VKi5xLWsn87Car" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+          <script type="text/javascript">
+              window.addEventListener("scroll", function(){
+                  var navbar = document.querySelector("navbar");
+                  navbar.classList.toggle("sticky", window.scrollY >0);
+              })
+          </script>
+          <div class="navbar__container">
+              <img src="Final.png"></img>
+              <div class="navbar__toggle" id="mobile-menu">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+              </div>
+              <ul class="navbar__menu">
+                  <li class="navbar__item">
+                      <a href="/index.html" class="navbar__links">
+                          Home
+                      </a>
+                  </li>
+                  <li class="navbar__item">
+                      <a href="/tech.html" class="navbar__links">
+                          Resume
+                      </a>
+                  </li>
+                  <li class="navbar__item">
+                      <a href="/" class="navbar__links">
+                          Projects
+                      </a>
+                  </li>
+                  <li class="navbar__btn">
+                      <a href="/" class="button">
+                          Portfolio
+                      </a>
+                  </li>
+              </ul>
+          </div>
+       </nav>
+      </header>
+    <canvas id="bg"></canvas>
+    <main>
+      <section class="titleHeader">
+      <h1> Josh Brice</h1>
+      <p>
+        I code a lot.
+      </p>
+     </section>
+
+
+    <section class ="wanna-see-some"> 
+      <h2>Here are some of my projects. </h2>
+      <p> Scroll through.</p>
+   </section>
+
+  
+   <section class="ai-section">
+   <h2>AI Implementations</h2>
+   <p>
+     I have also built multiple artificial intelligence implementations using Python and PDDL. 
+     These projects ensued from Northwestern's CS348 "Intro to AI Programming" class, which I took in 
+     Fall 2022.
+   </p>
+  
+    <h3>Skills: Python, AI/ML, Git, PDDL</h3>
+   
+    <a href="github.com" class="github__button">
+      REPO <i class = "fab fa-github"></i>
+    </a>
+  </section>
+
+  <section class = "wd-section">
+   <h2>Front-End Development</h2>
+   <p>
+    I have extensive experience in Front-End Web Development and building static web apps.
+    I love using the three.js libraries to animate web pages and make appealing UIs. 
+    My skills using JavaScript are among my biggest strengths.
+
+   </p>
+    <h3>Skills: HTML5, CSS3, JavaScript, React.js, Three.js</h3>
+    <a href="github.com" class="github__button">
+      REPO <i class = "fab fa-github"></i>
+    </a>
+  </section>
+
+  <section class ="oo-section">
+    <h2>2048 Game</h2>
+    <p>
+      I created 2048 in C++ using object-oriented programming and inheritance ot model various game objects. 
+      As a part of the project, I developed extensive test cases to catch border errors in the game, therein creating 
+      a functional UI. 
+    </p>
+    <h3> 
+      Skills: C, C++, Git, Unix Shell
+    </h3>
+
+    <a href="github.com" class="github__button">
+      REPO <i class = "fab fa-github"></i>
+    </a>
+  </section>
+
+
+  <section class="md-section">
+    <h2>Mobile Development</h2>
+    <p>
+      I am currently working as a Software Development Intern for a company called CMPSE (Compose). We are 
+      currently building a mobile skills development platform for aspiring executives.
+      (January 2023 - June 2023)
+    </p>
+    <h3>
+      Skills: React Native, TypeScript, KendoUI, Swift
+    </h3>
+    <a href="ktpnu.com" class = "linkedbutton">
+      LinkedIn <i class = "fab fa-linkedin"></i>
+    </a>
+    
+  </section>
+
+  <section class="vt-section">
+    <h2>Data Structures & Leetcode Walkthroughs (Coming Soon)</h2>
+    <p>
+      I am starting YouTube walkthroughs of Leetcode problems and Data Structure explanations.
+      They will be linked below. First video is releasing on 1/19. 
+    </p>
+  
+  <a href="youtube.com/willempowerfish" class = "youtubebutton">
+    YouTube <i class = "fab fa-youtube"></i>
+  </a>
+  
+  </section>
+
+
+  <section class="ktp-section">
+    <h2>Kappa Theta Pi</h2>
+    <p>
+      I am the VP of Recruitment for Northwestern University's premier 
+      technological fraternity, Kappa Theta Pi. We 
+      are Northwestern's brightest young minds in tech, and have brothers and alumni
+      working at all top FAANG companies! 
+
+    </p>
+  
+  <a href="ktpnu.com" class = ktpwebsite__button>
+    Website 
+  </a>
+  
+  </section>
+
+
+   
+  </main>
+  <script type="module" src="/main.js"></script>
+
+  </body>
+</html>
